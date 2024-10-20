@@ -1,0 +1,13 @@
+[versions]
+auto-service = "1.1.1"
+kotlin = "2.0.20"
+
+[plugins]
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }
+
+[libraries]
+auto-service-annotations = { module = "com.google.auto.service:auto-service-annotations", version.ref = "auto-service" }
+auto-service-processor = { module = "com.google.auto.service:auto-service", version.ref = "auto-service" }
+kotlin-compile-testing = { module = "dev.zacsweers.kctfork:core", version = "0.5.1" }
+kotlin-compiler = { module = "org.jetbrains.kotlin:kotlin-compiler-embeddable", version.ref = "kotlin" }

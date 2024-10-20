@@ -1,0 +1,1 @@
+- [anvil/docs/INTERNALS.md](https://github.com/square/anvil/blob/aa87b694d87dc2f9ee51eb150c33c30a29658029/docs/INTERNALS.md)
